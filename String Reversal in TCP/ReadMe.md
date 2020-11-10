@@ -6,8 +6,9 @@ Functionality: Clients can input a string and the server will reverse it. The ou
 This is written in C and creates child processes to handle the requests from multiple clients.
 
 Commands to run on a Terminal:
-gcc server.c -o server
-gcc client.c -o client
+
+`gcc server.c -o server
+gcc client.c -o client`
 
 Then run ./server first and in a new terminal run ./client. You can open new terminals and start running new clients. 
 
